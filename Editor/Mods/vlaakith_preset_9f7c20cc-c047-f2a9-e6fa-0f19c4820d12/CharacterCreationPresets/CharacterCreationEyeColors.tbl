@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<stats stat_object_definition_id="e31cc8b2-7018-4e0f-a939-fa21ce9c77b6">
+  <stat_objects>
+    <stat_object is_substat="false">
+      <fields>
+        <field name="Name" type="NameTableFieldDefinition" value="New_Stat_0" />
+        <field name="UUID" type="IdTableFieldDefinition" value="2cf48854-6099-4fee-a39c-60caa1f89575" />
+        <field name="NameFS" type="FixedStringTableFieldDefinition" value="Gith_Vlaakith" />
+        <field name="DisplayName" type="TranslatedStringTableFieldDefinition" handle="hacd9def2g041agda95g9ebcgb56c11170b20" version="1" />
+        <field name="MaterialPresetUUID" type="GuidTableFieldDefinition" value="0841174a-3326-fb1a-9185-8536eb02f77e" />
+        <field name="UIColor" type="ColorTableFieldDefinition" value="#FFC26200" />
+      </fields>
+    </stat_object>
+  </stat_objects>
+</stats>

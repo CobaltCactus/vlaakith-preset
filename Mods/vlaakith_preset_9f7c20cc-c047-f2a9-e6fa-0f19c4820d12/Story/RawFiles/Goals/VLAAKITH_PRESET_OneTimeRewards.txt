@@ -1,0 +1,26 @@
+Version 1
+SubGoalCombiner SGC_AND
+INITSECTION
+DB_OneTimeRewards_VLAAKITH_PRESET(1,(ITEMROOT)CACTUS_Vlaakith_Crown_00711e20-7d73-48f3-9881-f0448cd5dab3);
+KBSECTION
+//On game start, add reward 1 (Vlaakith Crown) to inventory
+IF
+LevelGameplayStarted(_,_)
+AND
+DB_Avatars(_Player)
+THEN
+PROC_OneTimeReward_GiveReward_VLAAKITH_PRESET(1,1,1,_Player);
+
+//Send to inventory (DO NOT MODIFY THIS EXCEPT REPLACING "_VLAAKITH_PRESET" WITH YOUR MODS NAME!)
+PROC
+PROC_OneTimeReward_GiveReward_VLAAKITH_PRESET((INTEGER)_RewardNo,(INTEGER)_Amount,(INTEGER)_Notification,(GUIDSTRING)_Player)
+AND
+NOT DB_OneTimeRewards_RewardGiven_VLAAKITH_PRESET(_RewardNo)
+AND
+DB_OneTimeRewards_VLAAKITH_PRESET(_RewardNo,_Reward)
+THEN
+DB_OneTimeRewards_RewardGiven_VLAAKITH_PRESET(_RewardNo);
+TemplateAddTo(_Reward,_Player,_Amount,_Notification);
+EXITSECTION
+
+ENDEXITSECTION
