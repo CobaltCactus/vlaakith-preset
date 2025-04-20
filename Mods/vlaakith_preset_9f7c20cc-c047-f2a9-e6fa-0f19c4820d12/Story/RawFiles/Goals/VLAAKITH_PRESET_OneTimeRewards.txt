@@ -2,6 +2,7 @@ Version 1
 SubGoalCombiner SGC_AND
 INITSECTION
 DB_OneTimeRewards_VLAAKITH_PRESET(1,(ITEMROOT)CACTUS_Vlaakith_Crown_00711e20-7d73-48f3-9881-f0448cd5dab3);
+DB_OneTimeRewards_VLAAKITH_PRESET(1,(ITEMROOT)CACTUS_Vlaakith_Camp_Clothes_2bacdba5-77a7-4ed4-973a-05d9fd7afa9d);
 KBSECTION
 //On game start, add reward 1 (Vlaakith Crown) to inventory
 IF

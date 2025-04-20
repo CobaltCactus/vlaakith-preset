@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <save>
-    <version major="4" minor="7" revision="1" build="3"/>
+    <version major="4" minor="8" revision="0" build="10"/>
     <region id="MetaData">
         <node id="root">
             <attribute id="GameProject" type="LSString" value=""/>
             <attribute id="Module" type="LSString" value="9f7c20cc-c047-f2a9-e6fa-0f19c4820d12"/>
             <attribute id="Name" type="LSString" value="vlaakith_preset"/>
             <attribute id="UUID" type="LSString" value="1346dc0b-90bf-e6c1-f8b9-a7259cebaa8d"/>
+            <attribute id="UpdatedDependencies" type="bool" value="true"/>
             <children>
                 <node id="Categories"/>
             </children>

@@ -10,6 +10,8 @@
   <content contentuid="hacd9def2g041agda95g9ebcgb56c11170b20" version="1">Vlaakith</content>
   <content contentuid="hde31f3c7g5eeeg882dgf5ceg51bac85044cd" version="1">Crown of the Githyanki</content>
   <content contentuid="h2a7f0a55g1e55ga58eg135bg299c78183964" version="1">By some off magic, this crown only looks right on Githyanki females.</content>
-  <content contentuid="h5ca96cf2gf9a3g93e0ga039g7a263bb0501b" version="2">Crown of the Githyanki</content>
-  <content contentuid="h87fa1a64ge174gba0age203g5c424385a3f9" version="1">Strange magic makes this crown only show its true form on female Githyanki.</content>
+  <content contentuid="h5ca96cf2gf9a3g93e0ga039g7a263bb0501b" version="3">Crown of the Githyanki</content>
+  <content contentuid="h87fa1a64ge174gba0age203g5c424385a3f9" version="2">Strange magic prevents this crown from showing on Dragonborn.</content>
+  <content contentuid="haec7199egc5e8g724ega550g20c79bab67c4" version="1">Vlaakith's Vestments</content>
+  <content contentuid="h4be2b32cg8ec7ge496g9628g6e32bdcad9d7" version="1">Strange magic makes this dress only visible on body type 1 githyanki.</content>
 </contentList>
